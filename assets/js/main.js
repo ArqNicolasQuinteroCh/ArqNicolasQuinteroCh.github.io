@@ -233,3 +233,21 @@ async function handleSubmit(event){
 document.querySelector('.contact__modal-close').addEventListener('click', () =>{
     modalMsgOk.classList.remove('active-modal');
 })
+
+
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 1500,
+    reset: true
+});
+
+sr.reveal(`.home__data, .home__img,
+            .about__data, .about__img, .menu__content, .qualification__sections,
+            .app__data, .app__img,
+            .project__data, .skills__content,
+            .footer__content`, {
+    interval: 200
+});
