@@ -658,7 +658,7 @@ body.light-theme{
     /* font-family: 'Architects Daughter', cursive; */
     font-size: var(--h1-font-size);
     color: #fff;
-    filter: drop-shadow(1rem 1rem 1rem rgba(0,0,0,.1));
+    filter: drop-shadow(.1rem .1rem .3rem rgba(0,0,0,1));
     letter-spacing: 3px;
 }
 
