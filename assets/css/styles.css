@@ -226,8 +226,14 @@ img {
 
 .section__subtitle-2 {
     display: block;
-    font-size: var(--normal-font-size);
+    font-size: var(--h2-font-size);
     margin-bottom: var(--mb-3);
+    color: var(--first-color);
+    cursor: context-menu;
+}
+
+.section__subtitle-2:hover{
+    color: var(--first-color-alt);
 }
 
 .section__title,
@@ -1370,7 +1376,7 @@ img {
     }
     .section__subtitle-2 {
         display: block;
-        font-size: var(--h3-font-size);
+        font-size: var(--h2-font-size);
         margin-bottom: var(--mb-3);
     }
 
