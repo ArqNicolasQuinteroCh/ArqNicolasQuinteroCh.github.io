@@ -700,7 +700,8 @@ body.light-theme{
 .description__info{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1);
+    flex-wrap: wrap;
 }
 
 .description__info-title{
@@ -711,6 +712,7 @@ body.light-theme{
 
 .description__info-name{
     font-size: var(--smaller-font-size);
+    padding: 1rem;
 }
 
 .description__info-title,
