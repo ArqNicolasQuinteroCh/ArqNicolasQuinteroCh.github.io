@@ -30,6 +30,15 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 
+
+/*==================== LOADER ====================*/
+window.addEventListener('load', function(){
+    this.document.getElementById('loader').classList.toggle('loader2')
+})
+
+
+
+
 /*==================== ACCORDION SKILLS ====================*/
 const skillsContent = document.getElementsByClassName('skills__content'),
       skillsHeader = document.querySelectorAll('.skills__header')
@@ -253,3 +262,5 @@ sr.reveal(`.home__data, .home__img,
             .footer__container`, {
     interval: 200
 });
+
+
