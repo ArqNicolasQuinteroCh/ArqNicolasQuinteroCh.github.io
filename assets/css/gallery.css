@@ -864,6 +864,12 @@ body.light-theme{
         font-size: var(--big-font-size);
     }
 
+    
+
+    .loader-text{
+        font-size: var(--big-font-size);
+    }
+
     .description__data{
         width: 400px;
         padding: .5rem;
@@ -962,6 +968,9 @@ body.light-theme{
 
     .focus-project__title{
         width: 600px;
+        font-size: 4rem;
+    }
+    .loader-text{
         font-size: 4rem;
     }
 
