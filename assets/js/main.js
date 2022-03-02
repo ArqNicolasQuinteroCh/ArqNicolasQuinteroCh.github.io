@@ -258,7 +258,7 @@ sr.reveal(`.home__data, .home__img,
             .app__data, .app__img,
             .project__data, .skills__content,
             .footer__content, .focus-project__title,
-            .description__info, .content-gallery__list-item,
+            .description__info,
             .footer__container`, {
     interval: 200
 });
